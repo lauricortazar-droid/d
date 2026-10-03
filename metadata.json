@@ -1,0 +1,6 @@
+{
+  "name": "FGDLL - Centro de Documentos y Materiales Institucionales",
+  "description": "Plataforma oficial de Fraternidad Guerreros de la Luz para generar, personalizar, administrar y descargar materiales institucionales de grupos y centros.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

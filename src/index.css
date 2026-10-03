@@ -1,0 +1,56 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .font-ringbearer {
+    font-family: 'Cinzel Decorative', 'Cinzel', Georgia, serif;
+    letter-spacing: 0.05em;
+  }
+  .font-cinzel {
+    font-family: 'Cinzel', Georgia, serif;
+    letter-spacing: 0.03em;
+  }
+  .font-cardo {
+    font-family: 'Cardo', Georgia, serif;
+  }
+  .font-sans-body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  }
+}
+
+/* Custom scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: rgba(15, 23, 42, 0.6);
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(148, 163, 184, 0.25);
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(217, 119, 6, 0.4);
+}
+
+@media print {
+  body {
+    background: white !important;
+    color: black !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+  .no-print {
+    display: none !important;
+  }
+  .print-area {
+    display: block !important;
+    width: 100% !important;
+    box-shadow: none !important;
+    margin: 0 !important;
+    border: none !important;
+  }
+  @page {
+    margin: 0;
+  }
+}
