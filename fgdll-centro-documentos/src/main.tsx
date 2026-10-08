@@ -1,0 +1,21 @@
+import { createRoot } from 'react-dom/client';
+import '@fontsource/cardo/400.css';
+import '@fontsource/cardo/700.css';
+import '@fontsource/cardo/400-italic.css';
+import '@fontsource/cinzel/500.css';
+import '@fontsource/cinzel/600.css';
+import '@fontsource/cinzel/700.css';
+import '@fontsource/cinzel/800.css';
+import '@fontsource/cinzel/900.css';
+import '@fontsource/cinzel-decorative/700.css';
+import '@fontsource/cinzel-decorative/900.css';
+import '@fontsource/plus-jakarta-sans/300.css';
+import '@fontsource/plus-jakarta-sans/400.css';
+import '@fontsource/plus-jakarta-sans/500.css';
+import '@fontsource/plus-jakarta-sans/600.css';
+import '@fontsource/plus-jakarta-sans/700.css';
+import '@fontsource/plus-jakarta-sans/800.css';
+import App from './App.tsx';
+import './index.css';
+
+createRoot(document.getElementById('root')!).render(<App />);
